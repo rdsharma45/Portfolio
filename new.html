@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rajdeep Sharma | Portfolio</title>
+  <link rel="stylesheet" href="new2.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <!-- New Animated Constellation Background -->
+  <canvas id="constellation-bg"></canvas>
+
+  <nav class="main-nav">
+    <span class="nav-title">Rajdeep Sharma</span>
+    <ul>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#work" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="mode-toggle" aria-label="Toggle theme">🌓</button>
+  </nav>
+
+  <!-- Hero/About Section -->
+  <section id="about" class="intro-split">
+    <div class="intro-l">
+      <h1>Hii, I’m <span class="main-highlight">Rajdeep Sharma</span></h1>
+      <div class="intro-role">
+        A Possionate Java Developer <span class="dot-sep">•</span> Programmer <span class="dot-sep">•</span> <span>Problem Solver</span>
+      </div>
+      <div class="intro-desc">Coding. Building. Learning. <span id="type-text"></span></div>
+      <div class="intro-actions">
+        <a href="mailto:rajdeepsharma9702@gmail.com" class="icon-btn vibrant" title="Email"><img src="mail.jpeg" alt="Email"></a>
+        <a href="https://www.linkedin.com/in/rajdeep-sharma-b94959295" class="icon-btn vibrant" title="LinkedIn"><img src="lnkd2.png" alt="LinkedIn"></a>
+        <a href="tel:+919372131189" class="icon-btn vibrant" title="Phone"><img src="phone2.png" alt="Phone"></a>
+        <a href="Resume(updated).pdf" class="cta-btn vibrant" download>Resume</a>
+      </div>
+    </div>
+    <div class="intro-r">
+      <div class="photo-bg-shape"></div>
+      <img src="phot.png" alt="Rajdeep Sharma" class="intro-photo" />
+    </div>
+  </section>
+
+   <section class="secondsection card-section">
+    
+        <h2><span class = "sec-ico"></span>Summary</span></h2>    
+       
+        
+        <div class="summery">
+          <p>I’m Rajdeep Sharma, a passionate and driven Computer Science student currently pursuing my B.Tech at IMS Engineering College. My core focus lies in Java development and solving real-world problems through code. With a strong foundation in Object-Oriented Programming and hands-on experience in technologies like React.js, Node.js, MongoDB, and AWS, I thrive in collaborative, innovation-driven environments.
+
+        My journey is powered by consistent learning and a deep curiosity about software development. I’ve solved over 150 algorithm challenges on LeetCode and HackerRank, significantly boosting my problem-solving and coding efficiency in both Java and Python.
+
+          </p>
+       </div>
+        
+        </section>
+
+  <!-- Experience -->
+  <section id="work" class="card-section fade-up">
+    <h2><span class="sec-icon">💼</span> Experience</span></h2>
+    <div class="card-grid">
+      <div class="work-card">
+        <div class="work-h">
+          <span class="work-place">Pantech Solutions</span>
+          <span class="work-date">06/2024 – 09/2024</span>
+        </div>
+        <div class="work-role v-highlight">Web Development Intern</div>
+        <ul>
+          <li>Developed personal website using <span>MERN technology</span></li>
+          <li>Full Stack Web Development Certificate</li>
+        </ul>
+      </div>
+      <div class="work-card">
+        <div class="work-h">
+          <span class="work-place">Q Academy</span>
+          <span class="work-date">01/2024 – 04/2024</span>
+        </div>
+        <div class="work-role v-highlight">Data Science Using Python (Offline Training)</div>
+        <ul>
+          <li>Completed 4-month practical data analytics training</li>
+          <li>Proficiency in <span>Python</span> for Data Analytics</li>
+        </ul>
+      </div>
+       <div class="work-card">
+        <div class="work-h">
+          <span class="work-place">Corelynx Technology</span>
+          <span class="work-date">07/25 – 09/2025</span>
+        </div>
+        <div class="work-role v-highlight">Web Development Intern</div>
+        <ul>
+          <li>Completed 6-week Web Development Intern</li>
+          <li>Proficiency in <span>React</span> for Web Development</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="achieve-block fade-up">
+      <h3 class="ach-title v-highlight">Coding Efficiency</h3>
+      <ul>
+        <li>Solved <span>150+</span> LeetCode & HackerRank problems (Java and Python), spending <span>8+ hours weekly</span> to boost coding skills.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="card-section fade-up">
+    <h2><span class="sec-icon"></span> <span>Projects</span></h2>
+    <div class="proj-card-grid">
+      <div class="proj-card" tabindex="0" data-modal="modal-pms">
+        <div class="proj-title main-highlight">Project Management System</div>
+        <div class="proj-tags">React · Node.js · MySQL</div>
+        <div class="proj-short">Web app for student project collaboration, chat, uploads, and search.</div>
+      </div>
+      <div class="proj-card" tabindex="0" data-modal="modal-alumni">
+        <div class="proj-title main-highlight">AlumniConnect</div>
+        <div class="proj-tags">MERN · Networking</div>
+        <div class="proj-short">Web app for students & alumni to connect for career guidance and mentoring.</div>
+      </div>
+       <div class="proj-card" tabindex="0" data-modal="modal-alumni">
+        <div class="proj-title main-highlight">StyleVault</div>
+        <div class="proj-tags">React · FastAPI · MongoDB</div>
+        <div class="proj-short">Web app for Online Clothing Store to browse Clothing Products</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="card-section fade-up">
+  <h2><span class="sec-icon">🛠️</span> <span class="v-highlight">Skill-Set</span></h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-icon"><img src="download.png" alt="Java Logo" width="40"></div>
+      <h3>Java</h3>
+      <p>Strong foundation in OOP and backend logic.</p>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon"><img src="python.png" alt="Python Logo" width="40"></div>
+      <h3>Python</h3>
+      <p>Used for data science, scripting, and automation.</p>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🌐</div>
+      <h3>Web Development</h3>
+      <p>Proficient in HTML, CSS, JS, and React.</p>
+    </div>
+    <div class="skill-card">
+  <div class="skill-icon">📊</div>
+  <h3>Data Structures & Algorithms</h3>
+  <p>Solid understanding of DSA concepts with problem-solving using Java and Python.</p>
+</div>
+
+    <div class="skill-card">
+      <div class="skill-icon">☁️</div>
+      <h3>AWS Cloud</h3>
+      <p>Hands-on with basic deployment and cloud tools.</p>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">💾</div>
+      <h3>Databases</h3>
+      <p>Worked with MySQL & MongoDB for backend systems.</p>
+    </div>
+  </div>
+</section>
+
+
+  
+  <section id="contact" class="card-section fade-up custom-contact-section">
+    <h2><span class="sec-icon">📬</span> <span class="v-highlight">Contact & Suggestions</span></h2>
+    <div class="contact-split">
+      <div class="contact-info-card bg-vibe">
+        <h3 >Let's Connect</h3>
+        <p><strong>Email:</strong><a href="mailto:rajdeepsharma9702@gmail.com" >rajdeepsharma9702@gmail.com</a></p>
+        <p><strong>Phone :</strong> <a href="tel:+919372131189">+91 9372131189</a></p>
+        <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/rajdeep-sharma-b94959295" >linkedin.com/in/rajdeep-sharma-b94959295</a></p>
+      </div>
+   <form id="suggestionForm" class="contact-form styled-form bg-vibe" autocomplete="off">
+       <h3 class="v-highlight">Suggestion Box</h3>
+       <input type="text" name="name" required placeholder="Your Name" />
+      <input type="email" name="email" required placeholder="Your Email" />
+      <textarea name="suggestion" required placeholder="Your Suggestion or Feedback"></textarea>
+      <button type="submit"><span>✨</span> Send Feedback</button>
+      <div class="form-message"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Project modals -->
+  <div class="modal-bg" id="modal-pms" tabindex="-1" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button class="close-modal" title="Close">&times;</button>
+      <h3>Project Management System</h3>
+        <p>
+       The Project Management System is a collaborative platform that allows students and team members to efficiently manage academic or technical projects from start to finish. It provides features for task assignment, progress tracking, document sharing, and most importantly, team interaction through built-in chat or discussion modules.
+      </p>
+      <p>Designed to enhance communication within project teams, the system enables users to:</p>
+     <ul>
+      <li>Create and manage multiple projects</li>
+      <li>Assign roles and responsibilities</li>
+      <li>Track deadlines and milestones</li>
+      <li>Communicate in real-time or via comment threads</li>
+      
+     </ul>
+     <p>This system is particularly useful for students working on mini or major projects, ensuring all members stay aligned and productive. With future scalability in mind, the platform can also support mentor-student interaction, notifications, version control, and report generation.
+     </p>
+
+     
+    </div>
+  </div>
+  <div class="modal-bg" id="modal-alumni" tabindex="-1" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button class="close-modal" title="Close">&times;</button>
+      <h3>AlumniConnect</h3>
+      <p>
+       Alumni-Connect is a web-based platform developed as part of my mini project in the 5th semester of B.Tech (Computer Science & Engineering). The project aims to bridge the gap between students and alumni by providing a centralized portal for mentorship, career guidance, and professional networking.
+      </p>
+
+     <p>Key features include user registration, profile management, discussion forums, virtual event participation, and alumni-student interaction. The system was built using Java and SQL, with tools like VS Code and PyCharm for development.
+     </p>
+
+     <p>This project enhanced my skills in backend development, database integration, and user interface design. It also provided hands-on experience in solving real-world problems through technology, with a focus on collaboration, user engagement, and future scalability.
+     </p>
+    </div>
+  </div>
+
+  <footer>
+    <span>&copy; 2025 RS | Crafted by <span class="vibrant">Rajdeep Sharma</span></span>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("DbVo1wJXnXNeiucDt"); 
+</script>
+
+<script src="new1.js"></script>
+
+
+</body>
+</html>
