@@ -117,7 +117,7 @@ if (suggForm) {
     e.preventDefault(); // prevent page reload
     const formMessage = suggForm.querySelector(".form-message");
 
-    emailjs.sendForm("service_b2wy3gt", "template_5kccdw2", this)
+    emailjs.sendForm("service_b2wy3gt", "template_18lytao", this)
       .then(() => {
         formMessage.textContent = "Your feedback is appreciated! 🚀";
         suggForm.reset();
